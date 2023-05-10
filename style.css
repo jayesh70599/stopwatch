@@ -1,0 +1,38 @@
+
+.container{
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.btn-container{
+    text-align: center;
+    margin-top: 35px;
+}
+
+.timer{
+    height: 70px;
+    width: 400px;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 30px;
+}
+
+span{
+    font-size: 60px;
+    margin: 20px 0px 0px 0px;
+}
+
+#btn{
+    background-color: rgba(245, 245, 220, 0.838);
+    border-radius: 10px;
+    padding: 7px 15px;
+    margin: 0px 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+ #btn:hover{
+    background-color: gray;
+}
