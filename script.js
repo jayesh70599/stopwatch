@@ -3,7 +3,7 @@ var count = 0;
 var min = 0;
 var sec = 0;
 
-var temp = false;
+var temp = false; /* temp shows if stopwatch is currently running or not */
 
 function start(){
 
@@ -52,6 +52,8 @@ function stopwatch(){
             min += 1;
             sec=0;
         }
+
+        /* to show timer in double digits when values of count, min, sec are less than 10 */
 
         var count1 = count; 
         var sec1 = sec;
